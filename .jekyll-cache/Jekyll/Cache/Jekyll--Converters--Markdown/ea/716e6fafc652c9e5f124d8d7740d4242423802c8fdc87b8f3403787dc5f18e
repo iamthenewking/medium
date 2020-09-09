@@ -1,4 +1,4 @@
-I"<div class="container">
+I"½<div class="container">
 <div class="row justify-content-center">
     <div class="col-md-8">        
         <div class="row align-items-center mb-5">
@@ -13,6 +13,26 @@
         </div>
         <h4 class="font-weight-bold spanborder"><span>Posts by Jeff</span></h4>
             
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/2019-02-03-powerful-things-markdown-editor/"></a>
+	</h2>
+	<p class="excerpt">
+	   
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Sep 09, 2020
+	</small>
+</div>
+
+</div>
             
             <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">

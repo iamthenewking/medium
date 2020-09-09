@@ -4,7 +4,7 @@ description: 'Philippines Largest Online Shopping Database'
 logo: 'assets/images/logo.PNG'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
+disqus: ''
 email: 'mrgabonijeff@gmail.com'
 mailchimp-list: 'id=8c3d2d214b'
 
