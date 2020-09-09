@@ -1,0 +1,68 @@
+# Site
+name: 'Buytionary'
+description: 'Philippines Largest Online Shopping Database'
+logo: 'assets/images/logo.PNG'
+favicon: 'assets/images/favicon.ico'
+baseurl: ''
+disqus: 'demowebsite'
+email: 'mrgabonijeff@gmail.com'
+mailchimp-list: 'id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    jeff:
+      name: Jeff
+      site:           http://www.getbuya.club/
+      avatar:         assets/images/avatar1.jpg
+      bio: "Hi, I am Jeff, Fullstack Web Developer + Coffee Lover!"
+      email:          mrgabonijeff@gmail.com
+      facebook:        https://facebook.com/iamthenewking
+
+    eper:
+      name:           Eper
+      site:           https://www.epergaboni.com
+      avatar:         assets/images/me-2.jpg
+      bio:            "Philippine based web designer & web developer focused on crafting beautiful & user-friendly experiences.
+                        I’ve built roughly 768 user interfaces around the globe. Say hi@epergaboni.com if you need my help. "
+      email:          epergaboni@gmail.com
+      facebook:        https://facebook.com/epergab
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: jeff
+      avatar: assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+
+
+
