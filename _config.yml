@@ -42,7 +42,7 @@ defaults:
   - scope:
       path: "_posts"
     values:
-      layout: pages
+      layout: post
       author: jeff
       avatar: assets/images/avatar1.jpg
       
@@ -50,7 +50,7 @@ defaults:
   - scope:
       path: "_pages"
     values:
-      layout: post
+      layout: pages
       
 # Syntax
 markdown: kramdown
