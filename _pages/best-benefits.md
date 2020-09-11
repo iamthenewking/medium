@@ -1,6 +1,6 @@
 ---
 ID: 42951
-post_title: Xfinity Benefits
+title: Xfinity Benefits
 post_name: best-benefits
 author: mrgabonijeff@gmail.com
 post_date: 2018-03-27 07:50:46
